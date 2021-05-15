@@ -4,11 +4,6 @@ pipeline {
     	maven 'local-maven'
 	}
 	stages {
-    		stage("Checkout") {   
-        		steps {               	 
-            			git branch: 'main', url: 'https://github.com/trinichacon/project-spring-io'
-	        	}    
-    		}
 	    	stage('Build') {
         		steps {
         		sh "mvn compile"  	 
