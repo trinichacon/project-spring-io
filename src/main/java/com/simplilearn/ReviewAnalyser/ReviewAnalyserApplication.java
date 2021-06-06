@@ -12,7 +12,7 @@ public class ReviewAnalyserApplication {
             	for(String s : string){  
    	 	count++;
             	}  
-   	 return count;
+   	 return xcount;
     }
     public static void main(String[] args) {
    	 SpringApplication.run(ReviewAnalyserApplication.class, args);
