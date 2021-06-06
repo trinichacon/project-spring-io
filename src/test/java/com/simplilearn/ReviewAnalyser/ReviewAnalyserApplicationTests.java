@@ -1,7 +1,7 @@
 package com.simplilearn.ReviewAnalyser;
 
-//import org.junit.Test;
-//import static org.junit.Assert.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
