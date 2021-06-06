@@ -1,21 +1,21 @@
-package com.simplilearn.Calculator;
+package com.simplilearn.ReviewAnalyser;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
+import static org.junit.Assert.*;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CalculatorApplicationTests {
+class ReviewAnalyserApplicationTests {
 
-	@Test
-	void contextLoads1() {
-	}
+    private ReviewAnalyserApplication analyser = new ReviewAnalyserApplication();
 
-	@Test
-	void contextLoads2() {
-	}
+    @Test	 
+    public void testWordCount() {     	 
+   	 assertEquals(7,analyser.getWordCount("Train to win in the digital economy"));	 
+    }
 
-	@Test
-	void contextLoads3() {
-	}
-
+    @Test	 
+    public void testWordCount() {     	 
+   	 assertEquals(6,analyser.getWordCount("Train to win in the digital economy"));	 
+    }
 }
