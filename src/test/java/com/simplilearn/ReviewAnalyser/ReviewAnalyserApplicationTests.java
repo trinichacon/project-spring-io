@@ -10,4 +10,8 @@ class ReviewAnalyserApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void contextLoads1() {
+	}
+
 }
