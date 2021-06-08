@@ -8,7 +8,7 @@ public class ReviewAnalyserApplication {
 	//Change
 
 	public static void main(String[] args) {
-		xSpringApplication.run(ReviewAnalyserApplication.class, args);
+		SpringApplication.run(ReviewAnalyserApplication.class, args);
 	}
 
 }
